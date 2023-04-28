@@ -17,11 +17,18 @@ with st.container():
      leftcol, gap, mid, rightcol = st.columns((1,0.2,2,1))
      with mid:
           st.title("Trần Bảo Tiên")
-          st.subheader("Học sinh THPT Chuyên Lê Hồng Phong 	:point_right:	:point_left: :heart_on_fire:")
+          st.subheader("Học sinh THPT Chuyên Lê Hồng Phong")
           st.write(" 12CV1 (Chuyên Văn 1)")
-          st.write("- Bảo Tiên cực kì thích học code và tạo ra nhiều thứ thú vị.")
-          st.write("- Bảo Tiên vô cùng thiếu nghị lực và không thể giận ai được quá lâu.")
-          st.write("- Bảo Tiên thích uống rau má sữa, ăn bánh ngọt và hay tò mò~ :cake: :sparkles:")
+          st.write("""
+          Em muốn được học tập và làm việc tại một môi trường rộng lớn và mang tính cạnh tranh cao để rèn luyện bản thân, trải nghiệm, học hỏi nhiều hơn nữa.
+          Theo em, "Chẳng ai có thể đánh thuế ước mơ" của người trẻ. 
+          Cũng từ đó, mà em muốn chinh phục những đỉnh cao hơn nữa, muốn ước ao và đạt được mục tiêu mình đặt ra. 
+          Giới hạn hay kỉ lục vốn dĩ được đặt ra chính là để bị phá vỡ.
+
+          Còn rất nhiều điều em chưa biết, chưa tận mắt chứng kiến và chưa đạt được. 
+          Những điều đó khiến em tò mò về khả năng của bản thân và tự hỏi rằng đâu là điểm cực hạn mình có thể phấn đấu được. 
+          Hay vốn dĩ... nó không hề có điểm dừng?
+          """)
           st.write("[Tìm hiểu thêm qua link facebook >](https://www.facebook.com/baotiendancer/)")
      with leftcol:
           img2 = Image.open("Images/122407738_2286976264780882_1017126760838664431_n.jpeg")
@@ -41,7 +48,7 @@ with st.container():
           st.header("Những hoạt động em từng tham gia")
           st.write("##")
           st.write("""
-          Từ nhỏ em đã là một học sinh rất chăm và năng động trong việc tham gia các hoạt động chung :woman-bowing:
+          Từ nhỏ em đã là một học sinh rất chăm và năng động trong việc tham gia các hoạt động chung
           - Thứ nhất: Liên Đội Phó Tiểu học Bàu Sen, chỉ huy Đội giỏi cấp Quận. :star:
           - Thứ hai: Cháu ngoan Bác Hồ cấp Thành Phố 3 năm liền. :star:
           - Thứ ba: Cựu thành viên Hội đồng trẻ em Thành Phố Hồ Chí Minh. :star:
@@ -55,7 +62,7 @@ with st.container():
           """
                )
      with gap2:
-          st.write(":heart:\n\n:heart:\n\n:heart:\n\n:heart:\n\n:heart:\n\n:heart:\n\n:heart:\n\n:heart:\n\n:heart:\n\n:heart:\n\n:heart:\n\n")
+          gap2.empty()
      with leftcol:
           img7 = Image.open("Images//z4302489122192_179145a8528f5f66964e369f78b6f23e.jpg")
           st.image(img7)
@@ -73,16 +80,19 @@ with st.container():
           img_b = Image.open("Images/z4302410330167_291e5a958594b941ba84b4e5c1b28669.jpg")
           st.image(img_b)
      with leftcol:
-          st.header("Vì sao nên chọn Bảo Tiên?")
+          st.header("Vì sao em cảm thấy bản thân xứng đáng được chọn?")
           st.write("##")
           st.write("""
-          Trường sẽ không bao giờ tìm thấy ai đáng yêu hơn Bảo Tiên trên hành tinh xanh này! :earth_africa:
-          - Thứ nhất: Em hứa sẽ học thật giỏi và đem nhiều thành tích về! :star:
-          - Thứ hai: Em ngoan và chịu tiếp thu. :star:
-          - Thứ ba: Em luôn cố gắng trong mọi việc em làm và vô cùng có trách nhiệm. :star:
-          - Thứ tư: Em mong được trường chấp nhận và trở thành học sinh của trường. 	:star:
-          Đây là trang web em tự mình viết ra bằng code, thông qua thư viện streamlit.\n
-          Vì em mong có thể gây ấn tượng với Ban tuyển sinh của trường. :rainbow:
+          Em nghĩ bản thân là một trong những học sinh xứng đáng để trở thành mảnh ghép của trường vì: 
+          - Em luôn nỗ lực và cố gắng không ngừng nghỉ để trở nên giỏi hơn mỗi ngày. 
+          - Em có khả năng thích nghi tốt với mọi môi trường học tập - sáng tạo chỉ trong khoảng thời gian ngắn.
+          - Em làm việc rõ ràng và có kế hoạch nhưng không quá cứng nhắc.
+          - Em có khả năng tiếp thu và cải thiện rất nhanh chóng các kĩ năng cần thiết.
+          - Em mong bản thân có thể đi du học dựa trên học bổng để không phải làm gánh nặng cho gia đình.
+          - Em là một người đơn giản nhưng không nhàm chán.
+          ###
+          Nếu như được chọn, em sẽ chứng minh khả năng của mình và không bao giờ để bản thân bị thụt lùi so với các học sinh còn lại.\n
+          Dù em biết có rất nhiều bạn học sinh đang cạnh tranh cùng mình, nhưng em vẫn sẽ không bao giờ bỏ cuộc.
           """
                )
      with rightcol:
@@ -94,7 +104,7 @@ st.write("---")
 
 #_____________PHẦN 3______________
 
-st.header(" >> Kênh Youtube của Bảo Tiên :heart:")
+st.header(" >> Kênh Youtube của em.")
 st.write("###")
 with st.container():
      leftcol, mid, rightcol = st.columns((1,0.2,2))
