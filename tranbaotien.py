@@ -142,3 +142,24 @@ with st.container():
           st.markdown(contact, unsafe_allow_html=True)
      with rightcol:
           st.empty()
+
+st.write("###")
+st.write("---")
+st.header("Những dòng code em viết để tạo ra web (Có thể mở lớn để xem ạ)")
+with st.container():
+     mot,hai,ba,bon,nam = st.columns((1,1,1,1,1))
+     with mot:
+          mot = Image.open("Images/1.png")
+          st.image(mot)
+     with hai:
+          hai = Image.open("Images/2.png")
+          st.image(hai)
+     with ba:
+          ba = Image.open("Images/3.png")
+          st.image(ba)
+     with bon:
+          bon = Image.open("Images/4.png")
+          st.image(bon)
+     with nam:
+          nam = Image.open("Images/5.png")
+          st.image(nam)
